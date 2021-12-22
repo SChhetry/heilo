@@ -199,7 +199,7 @@ html {
   top: 4rem;
 }
 
-.full-quote p {
+.full-quote .wrap p {
   font-weight: 400;
   font-size: 1.1rem;
   color: gray;
@@ -207,12 +207,12 @@ html {
   margin-bottom: 1rem;
 }
 
-.full-quote hr {
+.full-quote .wrap hr {
   width: 50%;
   margin: auto;
 }
 
-.full-quote h3 {
+.full-quote .wrap h3 {
   font-size: 2rem;
   font-weight: 400;
   color: #fff;
