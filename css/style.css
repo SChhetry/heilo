@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 15px;
+  background-color: #dfdfdf;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.big-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/slide01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.big-wrapper nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 1rem;
+}
+
+.big-wrapper nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 20rem;
+  display: none;
+}
+
+.big-wrapper nav ul li {
+  margin-left: 2rem;
+  list-style: none;
+}
+
+.big-wrapper nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.big-wrapper nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.big-wrapper nav a .by-TEMPLATE {
+  color: gray;
+  font-weight: 300;
+}
+
+.big-wrapper nav a .by-TEMPLATE .fa {
+  color: #fff;
+  display: none;
+}
+
+.big-wrapper .banner-text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.big-wrapper .banner-text p {
+  color: #dfdfdf;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  margin-bottom: 1.5rem;
+}
+
+.big-wrapper .banner-text hr {
+  width: 50%;
+  margin: auto;
+}
+
+.big-wrapper .banner-text h1 {
+  color: #fff;
+  font-size: 6rem;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 318px) {
+  .big-wrapper nav a {
+    font-size: 1.1rem;
+  }
+  .big-wrapper .banner-text h1 {
+    width: 100%;
+    font-size: 3rem;
+  }
+}
+
+.two-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.two-box .box {
+  width: 48%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.two-box .box img {
+  width: 100%;
+}
+
+.two-box .box h5 {
+  margin: 0.8rem 0;
+  color: gray;
+  font-weight: 300;
+}
+
+.two-box .box hr {
+  width: 25%;
+  margin: auto;
+}
+
+.two-box .box h2 {
+  font-weight: 400;
+}
+
+.two-box .box .left-text {
+  padding: 5%;
+  line-height: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  color: gray;
+  text-align: left;
+}
+
+.two-box .box button {
+  width: 120px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid gray;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.two-box .box button a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 318px) {
+  .two-box .box {
+    width: 100%;
+  }
+}
+
+.full-quote {
+  width: 100%;
+  height: 25vh;
+  background-image: url(../img/slide02.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 7rem;
+  text-align: center;
+}
+
+.full-quote .wrap {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 4rem;
+}
+
+.full-quote p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: gray;
+  letter-spacing: 1.2px;
+  margin-bottom: 1rem;
+}
+
+.full-quote hr {
+  width: 50%;
+  margin: auto;
+}
+
+.full-quote h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 318px) {
+  .full-quote {
+    margin-top: 0;
+  }
+  .full-quote .wrap {
+    position: relative;
+    top: 0.8rem;
+  }
+  .full-quote p {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+    margin-bottom: 0.2rem;
+  }
+  .full-quote h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 0.5rem;
+  }
+}
+
+.line {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.line p {
+  font-weight: 300;
+  font-size: 1rem;
+  color: gray;
+  text-align: center;
+}
+
+.line hr {
+  width: 35%;
+  margin: 1% 0 0.5rem 0;
+  border: 1px solid gray;
+  margin-left: 32%;
+}
+
+.line h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.wrap {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 4rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: gray;
+  letter-spacing: 1.2px;
+  margin-bottom: 1rem;
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: black;
+  margin-top: 1rem;
+}
+
+.four_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.four_box .box {
+  width: 48%;
+  margin-bottom: 5rem;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.four_box img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 318px) {
+  .wrap {
+    position: relative;
+    top: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+    margin-bottom: 0.2rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 0.5rem;
+  }
+  .four_box {
+    margin-top: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .four_box .box {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 25vh;
+  background-color: #000;
+  text-align: center;
+}
+
+footer .fa {
+  color: gray;
+  font-size: 1.3rem;
+  margin-right: 0.8rem;
+  margin-top: 6%;
+}
+
+footer p {
+  color: gray;
+  margin-top: 1.4%;
+}
+
+@media only screen and (max-width: 768) and (min-width: 318) {
+  footer {
+    position: absolute;
+    top: -3rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

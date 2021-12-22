@@ -1,0 +1,28 @@
+.line {
+    margin-top: 3%;
+    text-align: center;
+
+    p {
+      font-weight: 300;
+      font-size: 1rem;
+      color: $primary-color;
+      text-align: center;
+      // position: relative;
+      // top: 4rem;
+    }
+
+    hr {
+      width: 35%;
+      margin: 1% 0 0.5rem 0;
+      border: 1px solid $primary-color;
+      margin-left: 32%;
+    }
+
+    h3 {
+      font-size: 2rem;
+      font-weight: 400;
+      text-align: center;
+      color: black;
+      margin-bottom: 2rem;
+    }
+  }

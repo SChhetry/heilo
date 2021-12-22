@@ -1,0 +1,60 @@
+.two-box {
+    @include flex_property();
+    margin-top: 30px;
+  
+    .box {
+      width: 48%;
+      background-color: $white-col;
+      text-align: center;
+      
+  
+      img {
+        width: 100%;
+      }
+  
+      h5 {
+        margin: 0.8rem 0;
+        color: $primary-color;
+        font-weight: 300;
+      }
+  
+      hr {
+        width: 25%;
+        margin: auto;
+      }
+  
+      h2 {
+        font-weight: 400;
+      }
+  
+      .left-text {
+        padding: 5%;
+        line-height: 1.2rem;
+        letter-spacing: 0.1rem;
+        font-weight: 300;
+        color: $primary-color;
+        text-align: left
+      }
+  
+      button {
+        @include more;
+        margin-bottom: 3rem;
+
+        a{
+          text-decoration: none;
+          font-weight: 600;
+          color: black;
+        }
+      }
+    }
+  }
+
+  // media queary
+
+  @media only screen and(max-width:768px) and (min-width:318px) {
+
+    .two-box .box{
+        width: 100%;
+      
+    }
+  }

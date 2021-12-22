@@ -1,0 +1,72 @@
+.wrap{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+}
+p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: $primary-color;
+    letter-spacing: 1.2px;
+    margin-bottom: 1rem;
+  }
+
+  hr {
+    width: 50%;
+    margin: auto;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+    margin-top: 1rem;
+  }
+
+
+.four_box {
+  @include flex_property();
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  
+
+  .box {
+    width: 48%;
+    margin-bottom: 5rem;
+    background-color: #fff;
+    padding: 1rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media only screen and(max-width:768px) and (min-width:318px) {
+      .wrap{
+        position: relative;
+        top: 1rem;
+      }
+    p{
+      font-size: 0.8rem;
+      letter-spacing: 0.8px;
+      margin-bottom: 0.2rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: $white-col;
+      margin-top: 0.5rem;
+    }
+
+    .four_box {
+      margin-top: 0.5rem;
+      margin-top: 0.5rem;
+    .box{
+      width: 100%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
