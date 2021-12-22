@@ -227,12 +227,12 @@ html {
     position: relative;
     top: 4rem;
   }
-  .full-quote p {
+  .full-quote .wrap p {
     font-size: 0.8rem;
     letter-spacing: 0.8px;
     margin-bottom: 0.2rem;
   }
-  .full-quote h3 {
+  .full-quote .wrap h3 {
     font-size: 1.4rem;
     font-weight: 400;
     color: #fff;
