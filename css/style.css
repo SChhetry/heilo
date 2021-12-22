@@ -235,6 +235,7 @@ html {
   .full-quote .wrap h3 {
     font-size: 1.4rem;
     font-weight: 400;
+    color: #fff;
     margin-top: 0.5rem;
   }
 }
@@ -268,10 +269,9 @@ html {
 
 .wrap {
   width: 100%;
-  margin: 0 auto;
+  height: 15vh;
   text-align: center;
-  position: relative;
-  top: 4rem;
+  margin-top: 5rem;
 }
 
 .wrap p {
@@ -321,7 +321,7 @@ html {
 @media only screen and (max-width: 768px) and (min-width: 318px) {
   .wrap {
     position: relative;
-    top: 4rem;
+    top: 0.5rem;
   }
   .wrap p {
     font-size: 0.8rem;
@@ -347,7 +347,7 @@ html {
 
 footer {
   width: 100%;
-  height: 25vh;
+  height: 210px;
   background-color: #000;
   text-align: center;
 }
@@ -356,7 +356,7 @@ footer .fa {
   color: gray;
   font-size: 1.3rem;
   margin-right: 0.8rem;
-  margin-top: 6%;
+  margin-top: 7%;
 }
 
 footer p {
@@ -366,8 +366,10 @@ footer p {
 
 @media only screen and (max-width: 768) and (min-width: 318) {
   footer {
-    position: absolute;
-    top: -3rem;
+    width: 50%;
+  }
+  footer .fa {
+    margin-top: 20%;
   }
 }
 /*# sourceMappingURL=style.css.map */
