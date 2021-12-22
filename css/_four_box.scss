@@ -1,4 +1,5 @@
 .wrap{
+  width: 100%;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -57,7 +58,6 @@ p {
     h3 {
       font-size: 1.4rem;
       font-weight: 400;
-      color: $white-col;
       margin-top: 0.5rem;
     }
   }

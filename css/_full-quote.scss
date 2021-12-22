@@ -7,13 +7,13 @@
   margin-top: 7rem;
   text-align: center;
 
-  .wrap{
+  .wrap {
     margin: 0 auto;
     text-align: center;
     position: relative;
     top: 4rem;
-  
-  p {
+
+    p {
       font-weight: 400;
       font-size: 1.1rem;
       color: $primary-color;
@@ -37,26 +37,25 @@
 
 // media queary
 
-@media only screen and(max-width:768px) and (min-width:318px) {
+@media only screen and(max-width:768px) and (min-width: 318px) {
+  .full-quote {
+    margin-top: 0;
 
-  .full-quote{
-      margin-top: 0;
+    .wrap {
+      position: relative;
+      top: 4rem;
 
-      .wrap{
-        position: relative;
-        top: 4rem;
-      
-    p{
-      font-size: 0.8rem;
-      letter-spacing: 0.8px;
-      margin-bottom: 0.2rem;
-    }
-    h3 {
-      font-size: 1.4rem;
-      font-weight: 400;
-      color: $white-col;
-      margin-top: 0.5rem;
+      p {
+        font-size: 0.8rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 0.2rem;
+      }
+      h3 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: $white-col;
+        margin-top: 0.5rem;
+      }
     }
   }
-}
 }
