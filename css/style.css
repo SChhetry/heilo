@@ -107,10 +107,10 @@ html {
     font-size: 1.1rem;
   }
   .big-wrapper .banner-text {
-    margin-top: 40%;
+    width: 100%;
+    margin-top: 50%;
   }
   .big-wrapper .banner-text h1 {
-    width: 100%;
     font-size: 3rem;
   }
 }
